@@ -40,7 +40,7 @@ jobs:
           pipx install poetry
           poetry install --no-root
       - name: Build HTML
-        run: sphinx-build docs build
+        run: 'poetry run sphinx-build docs build'
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
