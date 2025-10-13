@@ -39,7 +39,7 @@ def move_for_degrees(
     :param steering: Die Lenkrichtung in Prozent, -100 bis 100
 
     :param velocity: Die Geschwindigkeit in Grad/s. Wertebereiche siehe :doc:`/motors`
-    :param stop: Die Brems-Methode. Siehe :doc:`/api/motor`
+    :param stop: Die Brems-Methode. Siehe :doc:`Konstanten für Motor-Bremsverhalten </api/motor>`
     :param acceleration: Die Beschleunigung in Grad/s². 1 - 10000
     :param deceleration: Die Entschleunigung in Grad/s². 1 - 10000
     """
@@ -60,7 +60,7 @@ def move_for_time(
     :param steering: Die Lenkrichtung in Prozent, -100 bis 100
 
     :param velocity: Die Geschwindigkeit in Grad/s. Wertebereiche siehe :doc:`/motors`
-    :param stop: Die Brems-Methode. Siehe :doc:`/api/motor`
+    :param stop: Die Brems-Methode. Siehe :doc:`Konstanten für Motor-Bremsverhalten </api/motor>`
     :param acceleration: Die Beschleunigung in Grad/s². 1 - 10000
     :param deceleration: Die Entschleunigung in Grad/s². 1 - 10000
     """
@@ -139,7 +139,7 @@ def stop(pair: int, *, stop=motor.BRAKE):
     """Stoppe ein Motor-Paar.
 
     :param pair: Das betroffene Motor-Paar
-    :param stop: Die Brems-Methode. Siehe :doc:`/api/motor`
+    :param stop: Die Brems-Methode. Siehe :doc:`Konstanten für Motor-Bremsverhalten </api/motor>`
     """
 
 

@@ -107,7 +107,7 @@ def run_for_degrees(
     :param port: Port des Motors (:py:mod:`hub.port`)
     :param degrees: Die Anzahl an Grad
     :param velocity: Die Geschwindigkeit in Grad/s. Wertebereiche siehe :doc:`/motors`
-    :param stop: Die Brems-Methode. Siehe :doc:`/api/motor`
+    :param stop: Die Brems-Methode. Siehe :doc:`Konstanten für Motor-Bremsverhalten </api/motor>`
     :param acceleration: Die Beschleunigung in Grad/s². 1 - 10000
     :param deceleration: Die Entschleunigung in Grad/s². 1 - 10000
     """
@@ -127,7 +127,7 @@ def run_for_time(
     :param port: Port des Motors (:py:mod:`hub.port`)
     :param duration: Die Dauer in Millisekunden
     :param velocity: Die Geschwindigkeit in Grad/s. Wertebereiche siehe :doc:`/motors`
-    :param stop: Die Brems-Methode. Siehe :doc:`/api/motor`
+    :param stop: Die Brems-Methode. Siehe :doc:`Konstanten für Motor-Bremsverhalten </api/motor>`
     :param acceleration: Die Beschleunigung in Grad/s². 1 - 10000
     :param deceleration: Die Entschleunigung in Grad/s². 1 - 10000
     """
@@ -147,7 +147,7 @@ def run_to_relative_position(
     :param port: Port des Motors (:py:mod:`hub.port`)
     :param position: Die Gradzahl
     :param velocity: Die Geschwindigkeit in Grad/s. Wertebereiche siehe :doc:`/motors`
-    :param stop: Die Brems-Methode. Siehe :doc:`/api/motor`
+    :param stop: Die Brems-Methode. Siehe :doc:`Konstanten für Motor-Bremsverhalten </api/motor>`
     :param acceleration: Die Beschleunigung in Grad/s². 1 - 10000
     :param deceleration: Die Entschleunigung in Grad/s². 1 - 10000
     """
@@ -167,7 +167,7 @@ def run_to_absolute_position(
     :param port: Port des Motors (:py:mod:`hub.port`)
     :param position: Die Gradzahl
     :param velocity: Die Geschwindigkeit in Grad/s. Wertebereiche siehe :doc:`/motors`
-    :param stop: Die Brems-Methode. Siehe :doc:`/api/motor`
+    :param stop: Die Brems-Methode. Siehe :doc:`Konstanten für Motor-Bremsverhalten </api/motor>`
     :param acceleration: Die Beschleunigung in Grad/s². 1 - 10000
     :param deceleration: Die Entschleunigung in Grad/s². 1 - 10000
     """
@@ -177,7 +177,7 @@ def stop(port: int, *, stop: int = BRAKE):
     """Motor stoppen
 
     :param port: Port des Motors (:py:mod:`hub.port`)
-    :param stop: Die Brems-Methode. Siehe :doc:`/api/motor`
+    :param stop: Die Brems-Methode. Siehe :doc:`Konstanten für Motor-Bremsverhalten </api/motor>`
     """
 
 
