@@ -14,7 +14,6 @@
 * UNKNOWN
 """
 
-
 BLACK: int = 0
 MAGENTA: int = 1
 PURPLE: int = 2
