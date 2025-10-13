@@ -22,3 +22,5 @@ apidoc_automodule_options = {
 }
 
 master_doc = "api/modules"
+
+html_extra_path=["index.html"]
