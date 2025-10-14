@@ -1,3 +1,5 @@
+# type: ignore
+
 def clear(port: int):
     """Schalte alle Pixel aus
 
@@ -5,7 +7,7 @@ def clear(port: int):
     """
 
 
-def set_pixel(port: int, x: int, y: int, pixel: tuple[int, int]):
+def set_pixel(port: int, x: int, y: int, pixel: int):
     """Setzt ein Pixel
 
     :param port: Port des Distance Sensors (:py:mod:`hub.port`)
@@ -22,7 +24,7 @@ def get_pixel(port: int, x: int, y: int) -> int:
     :param x: X-Koordinate des Pixels
     :param y: Y-Koordinate des Pixels
 
-    :returns pixel: Helligkeit in Prozent
+    :returns: Helligkeit in Prozent
     """
 
 

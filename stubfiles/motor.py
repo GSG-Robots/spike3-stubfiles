@@ -1,27 +1,29 @@
+# type: ignore
+
 """Konstanten für Motor-Zustände
 
-* READY
-* RUNNING
-* STALLED
-* CANCELED
-* ERROR
-* DISCONNECTED
+* Fertig (``motor.READY``)
+* Läuft (``motor.RUNNING``)
+* Blockiert (``motor.STALLED``)
+* Abgebrochen (``motor.CANCELED``)
+* Fehler (``motor.ERROR``)
+* Verbindung verloren (``motor.DISCONNECTED``)
 
 Konstanten für Motor-Bremsverhalten
 
-* CONTINUE
-* COAST
-* BRAKE
-* HOLD
-* SMART_COAST
-* SMART_BRAKE
+* Nicht anhalten (``motor.CONTINUE``)
+* Auslaufen lassen (``motor.COAST``)
+* Bremsen (``motor.BRAKE``)
+* An Position halten (``motor.HOLD``)
+* Auslaufen lassen & Fehler im nächsten Befehl ausgleichen (``motor.SMART_COAST``)
+* Bremsen & Fehler im nächsten Befehl ausgleichen (``motor.SMART_BRAKE``)
 
 Konstanten für Motor-Drehrichtungen
 
-* CLOCKWISE
-* COUNTERCLOCKWISE
-* SHORTEST_PATH
-* LONGEST_PATH
+* Im Uhrzeigersinn (``motor.CLOCKWISE``)
+* Gegen den Uhrzeigersinn (``motor.COUNTERCLOCKWISE``)
+* Kürzester Weg (``motor.SHORTEST_PATH``)
+* Längster Weg (``motor.LONGEST_PATH``)
 """
 
 # state-Konstanten

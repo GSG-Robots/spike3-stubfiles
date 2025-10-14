@@ -1,3 +1,5 @@
+# type: ignore
+
 """Konstanten für Richtungen
 
 * UP

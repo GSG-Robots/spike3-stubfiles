@@ -1,19 +1,22 @@
+# type: ignore
+
 """Konstanten für Farben
 
-* BLACK
-* MAGENTA
-* PURPLE
-* BLUE
-* AZURE
-* TURQUOISE
-* GREEN
-* YELLOW
-* ORANGE
-* RED
-* WHITE
-* UNKNOWN
+* Schwarz/Aus (``color.BLACK``)
+* Magenta (``color.MAGENTA``)
+* Lila (``color.PURPLE``)
+* Blau (``color.BLUE``)
+* Azurblau/Himmelblau (``color.AZURE``)
+* Türkis (``color.TURQUOISE``)
+* Grün (``color.GREEN``)
+* Gelb (``color.YELLOW``)
+* Orange (``color.ORANGE``)
+* Rot (``color.RED``)
+* Weiß (``color.WHITE``)
+* Unbekannt (``color.UNKNOWN``)
 """
 
+UNKNOWN: int = -1
 BLACK: int = 0
 MAGENTA: int = 1
 PURPLE: int = 2
@@ -25,4 +28,3 @@ YELLOW: int = 7
 ORANGE: int = 8
 RED: int = 9
 WHITE: int = 10
-UNKNOWN: int = -1

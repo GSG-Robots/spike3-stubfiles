@@ -6,12 +6,13 @@ authors = [
     {name = "JoJoJux aka. J0J0HA",email = "info@jojojux.de"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13,<4.0"
 dependencies = [
     "sphinx (>=8.2.3,<9.0.0)",
     "sphinx-autobuild (>=2025.8.25,<2026.0.0)",
     "sphinx-rtd-theme (>=3.0.2,<4.0.0)",
     "ruff (>=0.14.0,<0.15.0)",
+    "sphinx-toolbox (>=4.0.0,<5.0.0)",
 ]
 
 

@@ -9,17 +9,18 @@ html_theme = "sphinx_rtd_theme"
 
 extensions = [
     "sphinx.ext.apidoc",
+    "sphinx_toolbox.wikipedia"
 ]
 
 apidoc_modules = [
     {"path": "../stubfiles", "destination": "api/"},
 ]
-
 apidoc_automodule_options = {
     "members",
     "show-inheritance",
     "undoc-members",
 }
+apidoc_separate_modules = True
 
 master_doc = "api/modules"
 

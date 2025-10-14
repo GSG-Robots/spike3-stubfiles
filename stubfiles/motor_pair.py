@@ -1,11 +1,13 @@
+# type: ignore
+
 import motor
 
 """
 Konstanten für Motor-Paare
 
-* PAIR_1
-* PAIR_2
-* PAIR_3
+* 1. Paar (``motor_pair.PAIR_1``)
+* 2. Paar (``motor_pair.PAIR_2``)
+* 3. Paar (``motor_pair.PAIR_3``)
 """
 
 PAIR_1: int = 0

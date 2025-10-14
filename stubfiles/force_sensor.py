@@ -1,3 +1,5 @@
+# type: ignore
+
 def force(port: int) -> int:
     """Liest die gemessene Druckkraft auf den Force Sensor aus
 
