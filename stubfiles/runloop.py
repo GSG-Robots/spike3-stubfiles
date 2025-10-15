@@ -4,10 +4,7 @@ from typing import Awaitable, Callable
 
 
 def run(*functions: Awaitable) -> None:
-    """Starte beliebig viele parallele asynchrone Funktionen vom Typ async. Diese Funktion solltest du zur Erstellung von Programmen verwenden, die ähnlich wie Textblöcke strukturiert sind.
-
-    :param *functions: Die auszuführenden Funktionen
-    """
+    """Starte beliebig viele parallele asynchrone Funktionen vom Typ async. Diese Funktion solltest du zur Erstellung von Programmen verwenden, die ähnlich wie Textblöcke strukturiert sind."""
 
 
 async def sleep_ms(duration: int):
