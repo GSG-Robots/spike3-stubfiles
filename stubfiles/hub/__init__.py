@@ -1,11 +1,6 @@
 # type: ignore
 
-from . import button
-from . import light_matrix
-from . import light
-from . import motion_sensor
-from . import port
-from . import sound
+from . import button, light, light_matrix, motion_sensor, port, sound
 
 
 def device_uuid() -> str:
