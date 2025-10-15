@@ -1,5 +1,6 @@
 # type: ignore
 
+
 def data(port: int) -> tuple[int, ...]:
     """Ruf die LPF-2-Rohdaten von einem Gerät ab.
 

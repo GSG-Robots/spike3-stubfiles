@@ -17,7 +17,7 @@ CONNECT = 3
 
 def pressed(button: int) -> int:
     """Gibt an, ob der gefragte Knopf gedrückt ist.
-    
+
     :param button: Der gefragte Button (:py:mod:`hub.button`)
     :returns: Für wie viele Millisekunden der Knopf bisher gedrückt gehalten wurde, oder :py:const:`0` falls nicht
     """

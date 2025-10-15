@@ -12,7 +12,7 @@ Die Dateien haben die Dateiendung ``.py`` statt ``.pyi``, da Sphinx scheinbar ke
 - [x] ``device``
 - [x] ``distance_sensor`` - Hat das wirklich die Funktionen von ``color_matrix``?
 - [x] ``force_sensor``
-- [ ] ``hub``
+- [x] ``hub``
 - [x] ``motor``
 - [x] ``motor_pair``
 - [x] ``orientation``

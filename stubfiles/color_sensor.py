@@ -1,5 +1,6 @@
 # type: ignore
 
+
 def color(port: int) -> int:
     """Gibt die erkannte Farbe an
 

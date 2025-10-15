@@ -72,6 +72,7 @@ Konstanten für Bilder
 * Schlange (``hub.light_matrix.IMAGE_SNAKE``)
 
 """
+
 IMAGE_HEART = 1
 IMAGE_HEART_SMALL = 2
 IMAGE_HAPPY = 3
@@ -140,6 +141,7 @@ IMAGE_SKULL = 65
 IMAGE_UMBRELLA = 66
 IMAGE_SNAKE = 67
 
+
 def clear():
     """Schaltet alle Pixel auf der Lichtmatrix aus."""
 
@@ -151,6 +153,7 @@ def set_pixel(x: int, y: int, pixel: int):
     :param y: Y-Koordinate des Pixels (0 bis 4)
     :param pixel: Helligkeit in Prozent
     """
+
 
 def get_pixel(x: int, y: int) -> int:
     """Liest ein Pixel aus
@@ -168,27 +171,31 @@ def show(pixels: list[int]):
     :param pixels: Eine Liste von 25 Pixeln, je bestehend aus der Helligkeit in Prozent
     """
 
+
 def show_image(image: int):
     """Zeigt eines der integrierten Bilder an
 
     :param image: Das Bild (:py:mod:`hub.light_matrix`)
     """
 
+
 def write(text: str, intensity: int = 100, time_per_character: int = 500):
     """Zeigt einen Text an
-    
+
     :param intensity: Helligkeit in Prozent
     :param time_per_character: Zeit, die ein einzelner Buchstanbe angezeigt wird, in Millisekunden
     """
 
+
 def get_orientation() -> int:
     """List die Bildschirmausrichtung aus
-    
+
     :returns: Ein Wert aus :py:mod:`orientation`
     """
-    
+
+
 def set_orientation(orientation: int):
     """Setze die Bildschirmausrichtung
-    
+
     :param orientation: Ein Wert aus :py:mod:`orientation`
     """

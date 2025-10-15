@@ -36,11 +36,11 @@ def beep(
     channel: int = DEFAULT,
 ):
     """Starte einen Piepton am Hub
-    
+
     :param frequency: Frequenz in Hz
     :param duration: Dauer
     :param volume: Lautstärke in Prozent
-    
+
     :param attack: Die Dauer des Hochfahrens von Null bis zum Spitzenwert ab dem Zeitpunkt, wenn die Taste gedrückt wird.
     :param decay: Die Dauer des anschließenden Rundowns vom Attack-Pegel auf den vorgesehenen Sustain-Pegel.
     :param sustain: Der Pegel während der Hauptsequenz der Tondauer, bis die Taste losgelassen wird.
@@ -50,8 +50,10 @@ def beep(
     :param channel: Der fürs Abspielen gewünschte Kanal. Die Optionen sind :py:const:`hub.sound.DEFAULT` und :py:const:`hub.sound.ANY`
     """
 
+
 def stop():
     """Stoppe alle Laufenden Töne"""
+
 
 def volume(volume: int):
     """Stelle die Standardlautstärke ein"""

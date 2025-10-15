@@ -1,5 +1,6 @@
 # type: ignore
 
+
 def clear(port: int):
     """Schalte alle Pixel aus
 
