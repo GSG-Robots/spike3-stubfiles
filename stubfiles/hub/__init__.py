@@ -27,13 +27,13 @@ def temperature() -> int:
 
 __all__ = [
     "button",
-    "light_matrix",
-    "light",
-    "motion_sensor",
-    "port",
-    "sound",
     "device_uuid",
     "hardware_id",
+    "light",
+    "light_matrix",
+    "motion_sensor",
+    "port",
     "power_off",
+    "sound",
     "temperature",
 ]
