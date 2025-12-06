@@ -1,4 +1,4 @@
-# type: ignore
+# type: ignor
 
 """Konstanten für Ports
 

@@ -14,7 +14,6 @@ LEFT = 1
 RIGHT = 2
 CONNECT = 3
 
-
 def pressed(button: int) -> int:
     """Gibt an, ob der gefragte Knopf gedrückt ist.
 

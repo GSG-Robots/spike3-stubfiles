@@ -51,9 +51,9 @@ def beep(
     """
 
 
-def stop():
+def stop() -> None:
     """Stoppe alle Laufenden Töne"""
 
 
-def volume(volume: int):
+def volume(volume: int) -> None:
     """Stelle die Standardlautstärke ein"""
