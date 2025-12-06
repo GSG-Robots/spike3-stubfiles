@@ -10,6 +10,7 @@ Konstanten für LEDs
 POWER = 0
 CONNECT = 1
 
+
 def color(light: int, color: int) -> None:
     """Stelle die Farbe der LED ein. :py:const:`color.BLACK` für aus.
 

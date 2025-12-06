@@ -141,8 +141,10 @@ IMAGE_SKULL = 65
 IMAGE_UMBRELLA = 66
 IMAGE_SNAKE = 67
 
+
 def clear() -> None:
     """Schaltet alle Pixel auf der Lichtmatrix aus."""
+
 
 def set_pixel(x: int, y: int, pixel: int) -> None:
     """Setzt ein Pixel
@@ -151,6 +153,7 @@ def set_pixel(x: int, y: int, pixel: int) -> None:
     :param y: Y-Koordinate des Pixels (0 bis 4)
     :param pixel: Helligkeit in Prozent
     """
+
 
 def get_pixel(x: int, y: int) -> int:
     """Liest ein Pixel aus
@@ -161,17 +164,20 @@ def get_pixel(x: int, y: int) -> int:
     :returns: Helligkeit in Prozent
     """
 
+
 def show(pixels: list[int]) -> None:
     """Zeigt ein Bild an
 
     :param pixels: Eine Liste von 25 Pixeln, je bestehend aus der Helligkeit in Prozent
     """
 
+
 def show_image(image: int) -> None:
     """Zeigt eines der integrierten Bilder an
 
     :param image: Das Bild (:py:mod:`hub.light_matrix`)
     """
+
 
 def write(text: str, intensity: int = 100, time_per_character: int = 500) -> None:
     """Zeigt einen Text an
@@ -180,11 +186,13 @@ def write(text: str, intensity: int = 100, time_per_character: int = 500) -> Non
     :param time_per_character: Zeit, die ein einzelner Buchstanbe angezeigt wird, in Millisekunden
     """
 
+
 def get_orientation() -> int:
     """List die Bildschirmausrichtung aus
 
     :returns: Ein Wert aus :py:mod:`orientation`
     """
+
 
 def set_orientation(orientation: int) -> None:
     """Setze die Bildschirmausrichtung
